@@ -12,7 +12,7 @@ load_dotenv()
 
 # Page configuration
 st.set_page_config(
-    page_title="FitBot - Your Personal Fitness Coach",
+    page_title="Demo For Just Plan Generation",
     page_icon="🏋️‍♂️",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -100,7 +100,7 @@ LANGUAGES = {
 
 CONTENT = {
     'english': {
-        'welcome': "Welcome to FitBot! 🏋️‍♂️",
+        'welcome': "Please check spanish is correct or not and which questions you need add or modify",
         'subtitle': "Your AI-Powered Personal Fitness Coach",
         'description': "Get a personalized fitness and nutrition plan tailored just for you!",
         'form_title': "📋 Personal Information",
@@ -475,4 +475,5 @@ def main():
     """, unsafe_allow_html=True)
 
 if __name__ == "__main__":
+
     main()
